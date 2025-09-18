@@ -1,0 +1,1 @@
+Toyota Card Project – A simple project showcasing a Toyota vehicle card built with HTML, CSS, and JavaScript. The card includes car details, specifications, and a clean UI design. Perfect for practicing frontend skills, responsive layouts, and component-based design.
