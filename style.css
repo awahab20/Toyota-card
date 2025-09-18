@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.card-container {
+  perspective: 1000px;
+}
+
+.card {
+  background: #1f1f1f;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  padding: 30px 20px 40px;
+  color: #fff;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-15px) scale(1.05);
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.featured {
+  color: red;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.learn-btn {
+  padding: 12px 28px;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.learn-btn:hover {
+  background: greenyellow;
+  transform: scale(1.1);
+}
